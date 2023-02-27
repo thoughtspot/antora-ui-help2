@@ -1,0 +1,10 @@
+    {{!-- Add additional meta tags here --}}
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--    <link rel="stylesheet" href="../../_/css/site-extra.css"> -->
+{{#unless (eq page.attributes.noindex undefined)}}
+<meta name="robots" content="noindex"/>
+{{/unless}}
+<link rel="stylesheet" href="../../_/css/vendor/docsearch.css">
+<!-- fetched from https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css -->
+<meta name="docsearch:version" content="6.3,6.2,6.1,6.0,latest" />
+<link rel="icon" href="{{{uiRootPath}}}/img/favicon.ico" type="image/x-icon">

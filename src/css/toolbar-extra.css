@@ -1,0 +1,10 @@
+.nav-toggle {
+  background: url(../img/menu.svg) no-repeat 100% 50.5%;
+  background-size: 49%;
+}
+
+/* leaving this uncommented shouldn't do any harm since you've removed the edit-this-page */
+/*
+.toolbar .edit-this-page a {
+  color: var(--toolbar-muted-color);
+} */

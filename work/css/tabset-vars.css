@@ -1,0 +1,14 @@
+:root {
+  --tab-inactive-background: var(--color-smoke-50);
+  --tab-active-background: var(--body-background);
+  --tab-border-color: var(--panel-border-color);
+  --tab-border-radius: calc(10 / var(--rem-base) * 1rem);
+  --tab-border-width: calc(1 / var(--rem-base) * 1rem);
+  --tab-height: calc(45 / var(--rem-base) * 1rem);
+  --tab-font-color: var(--body-font-color);
+  --tab-font-weight: var(--body-font-weight-bold);
+  --tab-line-height: 1;
+  --tab-padding: calc(27 / var(--rem-base) * 1rem);
+  --tab-content-padding: calc(22.5 / var(--rem-base) * 1rem);
+  --tab-spacing: calc(4.5 / var(--rem-base) * 1rem);
+}

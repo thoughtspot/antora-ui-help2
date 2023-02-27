@@ -1,0 +1,74 @@
+[.conceal-title]
+= {empty}
+:page-layout: algolia-pendo
+
+++++
+<style>
+@media screen and (max-width: 815px)
+.algolia_search_wrapper .search_wrapper .ais-SearchBox {
+    width: 98% !important;
+    margin-right: 7.8px !important;
+    margin-top: -54px !important;
+}
+
+.navbar-item.has-dropdown {
+    padding: 0;
+    margin-top: 7px;
+    color: white;
+    visibility: hidden !important;
+}
+
+.navbar-menu {
+    background: none !important;
+}
+
+@media screen and (max-width: 1023.5px)
+.navbar-brand .navbar-item {
+    visibility: hidden !important;
+}
+
+.navbar {
+    background: none !important;
+}
+
+.navbar-brand .navbar-item:first-child, .navbar-brand .navbar-item:first-child a {
+    visibility: hidden !important;
+}
+
+.algolia_search_wrapper .search_wrapper {
+    text-align: center;
+    width: 100% !important;
+    margin-left: 9px !important;
+    margin-top: 9px !important;
+}
+
+.algolia_search_wrapper.inline .hits_parent_container.expanded {
+    max-height: calc(1000vh - 88px) !important;
+    padding-bottom: 115px !important;
+    overflow-y: auto;
+}
+
+.algolia_search_wrapper.inline [data-hit-container] a.view_more {
+    color: #5560fd;
+    text-decoration: underline;
+    font-weight: 200;
+    display: block;
+    margin-top: 15px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.algolia_docs .algolia_search_wrapper.inline.algolia_docs.header_algolia_search .view_more {
+    display: block !important;
+}
+
+.algolia_docs .algolia_search_wrapper.inline.header_algolia_search .search_wrapper form {
+    margin: 0;
+    width: 98% !important;
+}
+
+</style>
+++++
+
+
+

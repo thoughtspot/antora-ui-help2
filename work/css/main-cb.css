@@ -1,0 +1,36 @@
+/* couchbase banner css start */
+.article-banner {
+  align-items: center;
+  background: linear-gradient(to left, #fff, #333  50%);
+  color: #00ff;
+  display: flex;
+  line-height: 1.2;
+  margin: calc(-1 * var(--height-spacer)) calc(-1 * var(--width-container-gutter)) var(--height-spacer);
+  padding: 1rem 1.25rem;
+}
+
+.article-banner p {
+  font-size: 1.125rem;
+  margin: 0 1rem 0 0;
+}
+
+.article-banner a.btn {
+  color: #4e55fd;
+  border: 1px solid #4e55fd;
+  display: block;
+  font-weight: var(--weight-bold);
+  letter-spacing: -0.025em;
+  line-height: 1;
+  margin-left: 15% 0;
+  padding: 0.875rem 1.5rem;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  white-space: nowrap;
+}
+
+.article-banner a.btn:focus,
+.article-banner a.btn:hover {
+  background-color: #fff;
+  color: var(#4e55fd);
+}
+/* couchbase banner css end */

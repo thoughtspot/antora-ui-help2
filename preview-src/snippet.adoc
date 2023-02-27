@@ -1,0 +1,279 @@
+[.conceal-title]
+= {empty}
+:page-layout: snippet
+
+++++
+<style>
+.tableBorder {
+ border-bottom-color: #7a26b9;
+ border-top-color: #7a26b9;
+ border-top-style: solid;
+ border-top-width: 1px;
+ border-bottom-style: solid;
+ border-bottom-width: 1px;
+ border-left-color: #7a26b9;
+ border-left-style: solid;
+ border-left-width: 1px;
+ border-right-color: #7a26b9;
+ border-right-style: solid;
+ border-right-width: 1px;
+}
+</style>
+++++
+
+[label label-dep]#8.3.0.cl# May 2022
+
+NOTE: Features designated as [.badge.badge-update-whats-new-beta-note]#Beta# are off by default. To enable them, contact {support-url}.
+=======
+[label label-dep]#8.3.0.cl# May 2022
+
+NOTE: Features designated as [.badge-snippet.badge-update-snippet]#Beta# are off by default. To enable them, contact {support-url}.
+
+[#primary-8.3.0.cl]
+
+++++
+<div class="accordion-container">
+  <div class="ac">
+    <h2 class="ac-header">
+      <button type="button" class="ac-trigger">Lorem ipsum dolor sit amet.</button>
+    </h2>
+    <div class="ac-panel">
+      <p class="ac-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </div>
+
+  <div class="ac">
+    <h2 class="ac-header">
+      <button type="button" class="ac-trigger">Lorem ipsum dolor sit amet.</button>
+    </h2>
+    <div class="ac-panel">
+      <p class="ac-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </div>
+
+  <div class="ac">
+    <h2 class="ac-header">
+      <button type="button" class="ac-trigger">Lorem ipsum dolor sit amet.</button>
+    </h2>
+    <div class="ac-panel">
+      <p class="ac-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </div>
+</div>
+++++
+<<<<<<< HEAD
+[.accordion-container.ac]
+[.ac-header.ac-trigger]#best of the west#
+[.ac-panel.ac-text]#Lorem ipsum dolor sit amet, consectetur adipiscing elit.#
+
+++++
+<table class="matrix" width="80%" border="1" bordercolor="#4e55fd" align="center" font-family="Optimo-Plain,sans-serif;">
+  <tbody>
+    <tr class="tableBorder">
+      <th class="tableBorder" scope="col" width="44%" style="color:black;padding:10px;border:1px"></th>
+      <th class="tableBorder" scope="col" width="28%" style="color:white;padding:10px;font-family:Optimo-Plain,sans-serif;" bgcolor="#4e55fd" align="left">ThoughtSpot Software</th>
+      <th scope="col" width="28%" style="color:white;padding:10px;font-family:Optimo-Plain,sans-serif;" bgcolor="#06bf7f" align="left">ThoughtSpot Cloud</th>
+    </tr>
+    <tr class="tableBorder">
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Who installs and manages&nbsp;</th>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Customer</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">ThoughtSpot</td>
+    </tr>
+    <tr class="tableBorder">
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Falcon in-memory database&nbsp;</th>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+      <td bgcolor="#e0b5b3" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">No</td>
+    </tr>
+    <tr class="tableBorder">
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Cluster scale&nbsp;</th>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Multi-node clusters</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Single-node clusters+</td>
+    </tr>
+    <tr class="tableBorder">
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Embrace CDW Connections</th>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+    <tr class="tableBorder">
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Search Data</th>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+    <tr class="tableBorder">
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">SpotIQ Auto Analyze&nbsp;</th>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+    <tr class="tableBorder">
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Visualize <br>
+		  (answers, Liveboards, follow and related features)</th>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+    <tr class="tableBorder">
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">&nbsp;Mobile app</th>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+    <tr class="tableBorder">
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Data workspace</th>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes*</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+    <tr class="tableBorder">
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">SpotApps</th>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes**</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+    <tr class="tableBorder">
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">KPI charts&nbsp;</th>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+    <tr class="tableBorder">
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Monitor</th>
+      <td bgcolor="#e0b5b3" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">No</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+    <tr class="tableBorder">
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Eureka (search answers)</th>
+      <td bgcolor="#e0b5b3" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">No</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+    <tr class="tableBorder">
+      <th class="tableBorder" scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">TSE (embedded)&nbsp;</th>
+      <td class="tableBorder" bgcolor="#e0b5b3" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">No++</td>
+      <td class="tableBorder" bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+    <tr class="tableBorder">
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">ThoughtSpot Sync (Seekwell Destinations)&nbsp;</th>
+      <td bgcolor="#e0b5b3" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">No</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+  </tbody>
+</table>
+++++
+=======
+>>>>>>> 43471d68e4280156f43fab0325233a0d9633e7fa
+
+[#8-3-0-cl-kpi]
+*KPI chart enhancements*
+
+With this release, you can track Key Performance Indicators (KPIs) more easily, and tailor conditional formatting to suit your business use cases.
+
+[#8-3-0-cl-kpi-homepage]
+* *Track KPI charts from your home page watchlist*
++
+You can now add KPIs to your watchlist and track them from your home page.
++
+To access this feature, navigate to the *Home* tab and select *Add metrics to your watchlist*. [.show-hide]#See xref:thoughtspot-one-homepage.adoc#quick-links[Home page].#
++
+image:kpi-watchlist.gif[Add KPI to home page watchlist]
+
+[#8-3-0-cl-kpi-conditional-formatting]
+* *Conditional formatting for KPI attributes*
++
+Make your KPIs stand out with conditional formatting for attribute-type KPI charts as well as measures.
++
+To add conditional formatting to your KPI chart, select the *edit chart configuration* icon image:icon-gear-10px.png[], click on the visualized metric, and select *+ Add rule*. [.show-hide]#See xref:chart-kpi.adoc#kpi-conditional[Apply conditional formatting].#
++
+image:kpi-conditional-attribute.gif[]
+
+[#8-3-0-cl-monitor]
+*Monitor KPIs*
+
+You can now schedule alerts for changes in KPIs in your data. Using the Monitor function, you can schedule email notifications for your KPIs on an hourly, daily, weekly, or monthly basis.
+
+Select the *Monitor* tab to view and manage all KPI alerts you create or subscribe to. [.show-hide]#See xref:monitor.adoc[Monitor Key Performance Indicators in your data].#
+
+image:monitor-alert.png[]
+
+[#8-3-0-cl-liveboard-v2]
+
+*New Liveboard experience [.badge-snippet.badge-update-snippet]#Beta#*
+
+The new Liveboard experience contains new features and enhancements, including Edit mode, HTML in Liveboard titles and descriptions, and improved filtering.
+
+To try it out, navigate to your profile, scroll down to *Experience*, select *Edit*, and toggle the Liveboard experience to *New experience*. [.show-hide]#See xref:liveboard-experience-new.adoc[New Liveboard experience].#
+
+image::new-liveboard-experience-gif.gif[]
+
+[#8-3-0-cl-previously-viewed]
+*Recently viewed Liveboard and answer suggestions*
+
+Go to your most-viewed Liveboards and answers more quickly, with recently viewed suggestions. When you search answers, ThoughtSpot now suggests Liveboards and answers you've recently viewed, as well as popular objects.
+
+To search answers, select the *Search answers and Liveboards* search bar in the top navigation bar, or near the top of the screen on your home page. [.show-hide]#See xref:search-answers.adoc[Search answers].#
+
+image::search-suggestions.png[Recently viewed object suggestions]
+
+[#8-3-0-cl-spotiq]
+*New SpotIQ experience*
+
+SpotIQ has a new reorganized and more intuitive UI. The functionality remains the same.
+
+To try it out, navigate to your profile, scroll down to *Experience*, select *Edit*, and toggle the SpotIQ experience to *New experience*. [.show-hide]#See xref:spotiq.adoc[SpotIQ].#
+
+image::spotiq-v2-ui.png[New SpotIQ experience]
+
+[#8-3-0-cl-search-data]
+*Search data button*
+
+You can now search data without disrupting your workflow. Just right-click the *Search data* button in the top navigation bar to open search in a new tab.
+
+image::search-data-new-tab.gif[Navigate to new tab to search data]
+
+'''
+[#secondary-8.3.0.cl]
+*_Other features and enhancements_*
+
+[#8-3-0-cl-dbt]
+*Integration with dbt [.badge-snippet.badge-update-snippet]#Beta#*
+
+With the new dbt integration, you provide your existing dbt models and ThoughtSpot automatically creates worksheets you can use to query your data.
+
+To try out dbt integration, navigate to the *Data* tab, and select *Utilities*. Select *dbt Integration*.
+
+image::dbt-integration.png[]
+
+[#8-3-0-cl-connections]
+*Connections*
+
+// summary sentence
+
+[#8-3-0-cl-oracle]
+* *image:oracle_sm.png[] Oracle connections support Exadata and ADW*
++
+The Oracle ADW connection is renamed to Oracle. Existing ADW connections continue to work. There are now two options:
+ *_Cloud_* for ADW connections, and *_On Premise_* for Exadata or other on-premise Oracle databases. [.show-hide]#See xref:connections-adw.adoc[Oracle].#
+
+[#8-3-0-cl-dremio]
+* *image:dremio_sm.png[] Dremio*
++
+Dremio is a new connection type, which supports OAuth authentication. [.show-hide]#See xref:connections-dremio.adoc[Dremio].#
+
+[#8-3-0-cl-databricks-security]
+* *image:databricks_sm.png[] OAuth for Databricks*
++
+Databricks connections now support OAuth authentication. [.show-hide]#See xref:connections-databricks.adoc[Databricks].#
+
+[#8-3-0-cl-encryption]
+*Advanced data encryption at rest*
+
+You now have more granular user and folder-level controls for encrypting your persistent data, with advanced data encryption at rest (EAR).
+
+[#8-3-0-cl-spotapps]
+[discrete]
+=== Jira Issue Management SpotApp [.badge.badge-update-whats-new-beta]#Beta#
+
+With the new Jira Issue Management Spot App, you can analyze your issue tracking data. It maps your Jira data to SpotApp columns, and creates customizable worksheets, answers, and Liveboards, based on your data.
+
+image::spotapps-jira.png[Jira SpotApp]
+
+*ThoughtSpot Everywhere*
+
+For new features and enhancements introduced in this release for ThoughtSpot Everywhere, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+
+*About beta features*
+
+Beta features are off by default. To enable them, contact {support-url}.

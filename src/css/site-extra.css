@@ -1,0 +1,267 @@
+.navbar-brand .navbar-item + .navbar-item {
+  -ms-flex-positive: 1;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  -ms-flex-pack: end;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+}
+
+.algolia-autocomplete .ds-dropdown-menu [class^="ds-dataset-"] {
+  max-height: calc(100vh - 3.25rem);
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand .navbar-item + .navbar-item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .algolia-autocomplete .ds-dropdown-menu {
+    min-width: calc(100vw - 2.75rem) !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar-brand {
+    -ms-flex-positive: 1;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+  }
+
+  .navbar-menu {
+    -ms-flex-positive: 0;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+  }
+}
+
+#search-input {
+  color: #333;
+  font-family: inherit;
+  font-size: 0.95rem;
+  width: 150px;
+  border: 1px solid #dbdbdb;
+  border-radius: 0.1em;
+  line-height: 1.5;
+  padding: 0 0.25em;
+}
+
+#search .query {
+  border: 1px solid var(--navbar-button-border-color);
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 1.5;
+  padding: 0.25rem;
+  margin-bottom: 13px;
+  border-radius: 4px;
+  /* width: 7ex; /* width required to make input flexible */
+  height: -webkit-fit-content; /* fix for Safari */
+  flex: auto;
+  background: #fff url(https://d33wubrfki0l68.cloudfront.net/18fc58b185ba9ad7f7131fa6810a67e7fd8e78a7/03f57/_/img/search.svg);
+  background-size: 1rem;
+  background-position: right 0.8rem center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 769px) {
+  #search-input {
+    width: 200px;
+  }
+}
+
+#search {
+  display: flex;
+  position: relative; /* make results relative to whole search field, not just input */
+  color: var(--body-font-color);
+  width: 97.5%;
+}
+
+#search > .algolia-autocomplete {
+  display: inherit !important;
+  position: static !important;
+  flex: auto;
+}
+
+#search .query:focus {
+  outline: none;
+}
+
+.doc .image.conum > img {
+  height: 0.9em;
+  width: auto;
+  vertical-align: -0.1em;
+}
+
+/* ss360 css - start */
+
+.ss360-custom-search .ss360-custom-search__searchbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* background-position: 4px 10px;
+  /* background-repeat: no-repeat;
+  /* background-size: 24px 24px; */
+  background: #fff url(https://d33wubrfki0l68.cloudfront.net/18fc58b185ba9ad7f7131fa6810a67e7fd8e78a7/03f57/_/img/search.svg) !important;
+  background-size: 1rem !important;
+  background-position: right 0.8rem center !important;
+  background-repeat: no-repeat !important;
+  border: 1px solid #dedede;
+  border-radius: 4px !important;
+  /* box-shadow: 2px 2px 4px rgb(0 0 0 / 12%); */
+  box-sizing: border-box;
+  font-size: inherit !important;
+  height: 33px !important;
+  /* margin: 0; */
+  margin-bottom: 12px !important;
+  /* background: #fff url(https://d33wubrfki0l68.cloudfront.net/18fc58b…/03f57/_/img/search.svg) !important; */
+  max-width: 420px;
+  padding: 0 8px;
+  width: 100%;
+}
+
+.ss360-custom-search .ss360-custom-search__searchbutton {
+  align-items: center;
+  box-shadow: 2px 2px 4px rgb(0 0 0 / 12%);
+  box-sizing: border-box;
+  cursor: pointer;
+  /* display: flex; */
+  font-size: 1em;
+  height: 33px !important;
+  justify-content: center;
+  margin-top: 0;
+  padding: 0 16px;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  display: none !important;
+}
+
+.ss360-suggests__image-wrap {
+  display: none !important;
+  line-height: 0;
+  max-width: 33%;
+  min-height: 100%;
+  min-width: 250px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 250px;
+}
+
+.ss360-layer--overlay {
+  background-color: #fefefe;
+  box-sizing: content-box;
+  height: 80%;
+  left: calc(10% - 28px);
+  max-width: 800px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: 32px 24px 32px 32px;
+  position: fixed;
+  top: calc(10% - 30px);
+  width: 80%;
+  border-radius: 4px !important;
+  z-index: 99999999999;
+}
+
+#ss360-layer .ss360-ac-c {
+  color: #000 !important;
+}
+
+#ss360-layer .ss360-ac-c--hover:focus,
+#ss360-layer .ss360-ac-c--hover:hover {
+  color: #fff !important;
+}
+
+/* search results window button styles */
+#ss360-layer .ss360-ac-bg {
+  background-color: #4e55fd !important;
+  border-radius: 4px !important;
+}
+/* search results window button styles */
+#ss360-layer .ss360-ac-bg--focus:focus,
+#ss360-layer .ss360-ac-bg--hover:focus,
+#ss360-layer .ss360-ac-bg--hover:hover {
+  background-color: #4e55fd !important;
+  color: #fefefe;
+  border-radius: 4px !important;
+}
+/* more results button border */
+#ss360-layer .ss360-ac-b,
+#ss360-layer .ss360-ac-b--focus:focus,
+#ss360-layer .ss360-ac-b--hover:focus,
+#ss360-layer .ss360-ac-b--hover:hover {
+  border-color: #4e55fd !important;
+}
+/* search suggestions text styles */
+.home .unibox__search-content {
+  display: block;
+  margin-bottom: 4px;
+  text-align: left;
+  color: #444 !important;
+  font-size: 14px !important;
+}
+/* search suggestions image styles */
+.unibox__img-container {
+  align-items: center;
+  box-sizing: border-box;
+  /* display: flex; */
+  justify-content: flex-start;
+  min-width: 68px;
+  padding: 4px 0 4px 8px;
+  display: none !important;
+}
+/* search suggestions width styles */
+.unibox__content-container {
+  box-sizing: border-box;
+  max-width: calc(100% - 5px) !important;
+  padding: 12px 8px 16px 16px;
+  width: 100%;
+}
+/* search suggestions text color */
+.unibox__search-content--link {
+  color: #4a4f62 !important;
+  overflow: hidden;
+  text-decoration: none;
+  font-size: 14px !important;
+}
+/* search suggestions heading text style */
+.unibox__suggest-heading {
+  color: #4a4f62;
+  font-size: 13px !important;
+  margin: 8px;
+  padding: 0;
+  text-align: left;
+}
+
+/* width of search box */
+.ss360-custom-search {
+  justify-content: center;
+  max-width: 100%;
+  padding: 8px 0;
+  position: relative;
+  width: 250px !important;
+}
+/* remove outline around search input field */
+.ss360-n-input {
+  background: #fefefe;
+  background-image: none;
+  border: 0;
+  border-radius: 0;
+  outline: none !important;
+}
+/* search suggestion drop-down styling */
+.unibox {
+  background-color: #fefefe;
+  /* box-shadow: 1px 1px 6px rgb(0 0 0 / 12%); */
+  -webkit-box-shadow: 0 28px 45px rgb(0 0 0 / 20%);
+  color: #4a4f62;
+  display: none;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1500;
+  border-bottom-right-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+}
+
+/* ss360 css - end */

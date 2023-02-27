@@ -1,0 +1,438 @@
+= Hardware and Software Requirements
+Author Name
+:idprefix:
+:idseparator: -
+:!example-caption:
+:!table-caption:
+
+++++
+<style>
+@media only screen and (min-width: 1216px)
+.doc .columns .box {
+  width: calc(25% - 20px)
+}
+</style>
+++++
+[.badge.badge-deprecated]#Deprecated#
+
+image:multirepo-ssg.svg[Multirepo SSG,200,float=right]
+Platonem complectitur mediocritatem ea eos.
+Ei nonumy deseruisse ius.
+Mel id omnes verear.
+Vis no velit audiam, sonet <<dependencies,praesent>> eum ne.
+*Prompta eripuit* nec ad.
+Integer diam enim, dignissim eget eros et, ultricies mattis odio.
+Vestibulum consectetur nec urna a luctus.
+Quisque pharetra tristique arcu fringilla dapibus.
+Curabitur ut massa aliquam, cursus enim et, accumsan lectus.
+
+[cols="20%,20%,20%,40%",frame=ends,grid=rows]
+|===
+|Original contract term |Rollover within contract term |Renewal contract term |Rollover at time of renewal
+
+|1 year
+|N/A
+|1 year or multi-year
+|Up to 30% of prior contract’s flexible credits as long as renewal amount >= original contract.
+
+|Multi-year
+|100%
+|Multi-year
+|Up to 15% of prior contract’s flexible credits as long as renewal amount >= original contract.
+|===
+
++++<H4><span class="badge badge-primary">New</span></H4>+++
+
+xref:snippet.adoc[example snippet]
+
+xref:home.adoc[home!]
+
++++
+<button data-tippy-content="Me first!">Default</button>
+<button data-tippy-content="hello, my name is inigo montoya. You killed my father. Prepare to die.">I have my own content</button>
+<button data-tippy-arrow="true">I have my own option</button>
+<button
+  data-tippy-duration="0"
+  data-tippy-arrow="false"
+  data-tippy-delay="[1000, 200]"
+>
+  Text
+</button>
+<a href="#" data-tippy-content="Hey! I'm a link!">link</a>
++++
+
++++
+<a href="#" title="The place where an IT ops person can make changes to various settings.">admin console</a>
++++
+
++++
+<div class="tooltip">Admin Console
+  <span class="tooltiptext">You're hovering! Great job! Go here for complete details</span>
+</div>
++++
+
+[.conceal-title]
+== {empty}
+++++
+<div class="columns">
+    <div class="box-button"><a href = "https://www.thoughtspot.com" class = "panel-2">
+    <img src="_images/persona-business-user.png" id="business-user-icon">
+    <h2>
+      Software
+    </h2>
+    <p>Deploy and manage ThoughtSpot in your own private cloud.</p>
+    </a></div>
+  <div class="box-button"><a href="https://www.thoughtspot.com" class="panel-2">
+      <span><img src="_images/persona-analyst.png" id="analyst-icon">
+    <h2>
+      Cloud
+    </h2>
+    <p>Use our fully managed SaaS solution where we handle the hard stuff and deliver you rapid innovations.</p></span>
+    </a></div>
+  <div class="box-button"><a href="https://www.thoughtspot.com" class="panel-2">
+      <span><img src="_images/persona-data-engineer.png" id="data-engineer-icon">
+    <h2>
+      Developer
+    </h2>
+    <p>Use our fully managed SaaS solution where we handle the hard stuff and deliver you rapid innovations.</p></span>
+    </a></div>
+  <div class="box-button"><a href="https://www.thoughtspot.com" class="panel-2">
+      <span><img src="_images/persona-it-ops.png" id="it-ops-icon">
+    <h2>
+      Developer
+    </h2>
+    <p>Use our fully managed SaaS solution where we handle the hard stuff and deliver you rapid innovations.</p></span>
+    </a></div>
+ </div>
+
+++++
+
+== Cu solet
+
+Nominavi luptatum eos, an vim hinc philosophia intellegebat.
+Lorem `expetenda` pertinacia et nec, [.underline]#wisi# illud [.line-through]#sonet# qui ea.
+Eum an doctus <<liber-recusabo,maiestatis efficiantur>>.
+Eu mea inani iriure.
+
+[source,json]
+----
+{
+  "name": "module-name",
+  "version": "10.0.1",
+  "description": "An example module to illustrate the usage of package.json",
+  "author": "Author Name <author@example.com>",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint"
+  }
+}
+----
+
+.Example paragraph syntax
+[source,asciidoc]
+----
+.Optional title
+[example]
+This is an example paragraph.
+----
+
+.Optional title
+[example]
+This is an example paragraph.
+
+=== Some Code
+
+How about some code?
+
+[source,js]
+----
+vfs
+  .src('js/vendor/*.js', { cwd: 'src', cwdbase: true, read: false })
+  .pipe(tap((file) => { // <1>
+    file.contents = browserify(file.relative, { basedir: 'src', detectGlobals: false }).bundle()
+  }))
+  .pipe(buffer()) // <2>
+  .pipe(uglify())
+  .pipe(gulp.dest('build'))
+----
+<1> The tap function is used to wiretap the data in the pipe.
+<2> Wrap each streaming file in a buffer so the files can be processed by uglify.
+Uglify can only work with buffers, not streams.
+
+Cum dicat #putant# ne.
+Est in <<inline,reque>> homero principes, meis deleniti mediocrem ad has.
+Altera atomorum his ex, has cu elitr melius propriae.
+Eos suscipit scaevola at.
+
+....
+pom.xml
+src/
+  main/
+    java/
+      HelloWorld.java
+  test/
+    java/
+      HelloWorldTest.java
+....
+
+Select menu:File[Open Project] to open the project in your IDE.
+Per ea btn:[Cancel] inimicus.
+Ferri kbd:[F11] tacimates constituam sed ex, eu mea munere vituperata kbd:[Ctrl,T] constituam.
+
+.Sidebar Title
+****
+Platonem complectitur mediocritatem ea eos.
+Ei nonumy deseruisse ius.
+Mel id omnes verear.
+
+Altera atomorum his ex, has cu elitr melius propriae.
+Eos suscipit scaevola at.
+****
+
+=== Liber recusabo
+
+No sea, at invenire voluptaria mnesarchum has.
+Ex nam suas nemore dignissim, vel apeirian democritum et.
+At ornatus splendide sed, phaedrum omittantur usu an, vix an noster voluptatibus.
+
+. potenti donec cubilia tincidunt
+. etiam pulvinar inceptos velit quisque aptent himenaeos
+. lacus volutpat semper porttitor aliquet ornare primis nulla enim
+
+Natum facilisis theophrastus an duo.
+No sea, at invenire voluptaria mnesarchum has.
+
+* ultricies sociosqu tristique integer
+* lacus volutpat semper porttitor aliquet ornare primis nulla enim
+* etiam pulvinar inceptos velit quisque aptent himenaeos
+
+Eu sed antiopam gloriatur.
+Ea mea agam graeci philosophia.
+
+* [ ] todo
+* [x] done!
+
+Vis veri graeci legimus ad.
+
+sed::
+splendide sed
+
+mea::
+agam graeci
+
+At ornatus splendide sed.
+
+.Library dependencies
+[#dependencies%autowidth]
+|===
+|Library |Version
+
+|eslint
+|^1.7.3
+
+|eslint-config-gulp
+|^2.0.0
+
+|expect
+|^1.20.2
+
+|istanbul
+|^0.4.3
+
+|istanbul-coveralls
+|^1.0.3
+
+|jscs
+|^2.3.5
+|===
+
+Cum dicat putant ne.
+Est in reque homero principes, meis deleniti mediocrem ad has.
+Altera atomorum his ex, has cu elitr melius propriae.
+Eos suscipit scaevola at.
+
+[TIP]
+This oughta do it!
+
+Cum dicat putant ne.
+Est in reque homero principes, meis deleniti mediocrem ad has.
+Altera atomorum his ex, has cu elitr melius propriae.
+Eos suscipit scaevola at.
+
+[NOTE]
+====
+You've been down _this_ road before.
+====
+
+Cum dicat putant ne.
+Est in reque homero principes, meis deleniti mediocrem ad has.
+Altera atomorum his ex, has cu elitr melius propriae.
+Eos suscipit scaevola at.
+
+[WARNING]
+====
+Watch out!
+====
+
+[CAUTION]
+====
+[#inline]#I wouldn't try that if I were you.#
+====
+
+[IMPORTANT]
+====
+Don't forget this step!
+====
+
+.Key Points to Remember
+[TIP]
+====
+If you installed the CLI and the default site generator globally, you can upgrade both of them with the same command.
+
+ $ npm i -g @antora/cli @antora/site-generator-default
+====
+
+Nominavi luptatum eos, an vim hinc philosophia intellegebat.
+Eu mea inani iriure.
+
+[discrete]
+== Voluptua singulis
+
+Cum dicat putant ne.
+Est in reque homero principes, meis deleniti mediocrem ad has.
+Ex nam suas nemore dignissim, vel apeirian democritum et.
+
+.Antora is a multi-repo documentation site generator
+image::multirepo-ssg.svg[Multirepo SSG,250]
+
+Make the switch today!
+
+Click `*here*`
+
+[#english+中文]
+== English + 中文
+
+Altera atomorum his ex, has cu elitr melius propriae.
+Eos suscipit scaevola at.
+
+[quote, 'Famous Person. Cum dicat putant ne.', 'Cum dicat putant ne. https://example.com[Famous Person Website]']
+____
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Mauris eget leo nunc, nec tempus mi? Curabitur id nisl mi, ut vulputate urna.
+Quisque porta facilisis tortor, vitae bibendum velit fringilla vitae! Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Mauris eget leo nunc, nec tempus mi? Curabitur id nisl mi, ut vulputate urna.
+Quisque porta facilisis tortor, vitae bibendum velit fringilla vitae!
+____
+
+++++
+<table class="matrix" width="80%" border="1" bordercolor="#4e55fd" style="border-collapse: collapse; border-radius: 5px" align="center" font-family="Optimo-Plain,sans-serif;">
+  <tbody>
+    <tr>
+      <th scope="col" width="44%" style="color:black;padding:10px;"></th>
+      <th scope="col" width="28%" style="color:white;padding:10px;font-family:Optimo-Plain,sans-serif;" bgcolor="#4e55fd" align="left">ThoughtSpot Software</th>
+      <th scope="col" width="28%" style="color:white;padding:10px;font-family:Optimo-Plain,sans-serif;" bgcolor="#06bf7f" align="left">ThoughtSpot Cloud</th>
+    </tr>
+    <tr>
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Who installs and manages&nbsp;</th>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Customer</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">ThoughtSpot</td>
+    </tr>
+    <tr>
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Falcon in-memory database&nbsp;</th>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+      <td bgcolor="#e0b5b3" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">No</td>
+    </tr>
+    <tr>
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Cluster scale&nbsp;</th>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Multi-node clusters</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Single-node clusters+</td>
+    </tr>
+    <tr>
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Embrace CDW Connections</th>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+    <tr>
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Search Data</th>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+    <tr>
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">SpotIQ Auto Analyze&nbsp;</th>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+    <tr>
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Visualize <br>
+		  (answers, Liveboards, follow and related features)</th>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+    <tr>
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">&nbsp;Mobile app</th>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+    <tr>
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Data workspace</th>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes*</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+    <tr>
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">SpotApps</th>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes**</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+    <tr>
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">KPI charts&nbsp;</th>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+    <tr>
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Monitor</th>
+      <td bgcolor="#e0b5b3" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">No</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+    <tr>
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Eureka (search answers)</th>
+      <td bgcolor="#e0b5b3" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">No</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+    <tr>
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">TSE (embedded)&nbsp;</th>
+      <td bgcolor="#e0b5b3" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">No++</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+    <tr>
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">ThoughtSpot Sync (Seekwell Destinations)&nbsp;</th>
+      <td bgcolor="#e0b5b3" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">No</td>
+      <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+    </tr>
+  </tbody>
+</table>
+++++
+== Fin
+
+[.doc.columns.conceal-title]
+== {empty}
+
+[.columns.box]
+=== Business user
+test
+[columns.box]
+=== Analyst
+test
+[columns.box]
+=== Analyst
+test
+[columns.box]
+=== Analyst
+test
+
+[.cards.cards-4.personas.conceal-title]
+== {empty}
+
+[.card]
+=== ThoughtSpot for Administrators
+
+That's all, folks!
