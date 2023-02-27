@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+{{> head-snippet defaultPageTitle='Untitled'}}
+<script>new Accordion('.accordion-container');</script>
+  </head>
+  <body class="snippet{{#with (or page.attributes.role page.role)}} {{{this}}}{{/with}}">
+{{> body-snippet}}
+<script src="https://michu2k.github.io/Accordion/assets/js/vendors.min.js?v=01042022"></script>
+<script src="https://michu2k.github.io/Accordion/assets/js/scripts.min.js?v=01042022"></script>
+
+  </body>
+</html>

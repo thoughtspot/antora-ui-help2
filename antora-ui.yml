@@ -1,0 +1,43 @@
+sources:
+  - path: antora-ui-default
+  - path: '@djencks/tabset-block-ui'
+  - path: '@djencks/algolia-ui'
+  - path: ./
+css:
+  - site.css
+  - vendor/docsearch.css
+  - vendor/snippet.css
+js:
+  - target: site
+    contents: '+([0-9])-*.js'
+  - target: vendor/jquery
+    require: jquery/dist/jquery.min.js
+#    vfs.src(require.resolve('jquery/dist/jquery.min.js'), opts).pipe(concat('js/vendor/jquery.js')),
+#    vfs.src(require.resolve('bootstrap/dist/js/bootstrap.min.js'), opts).pipe(concat('js/vendor/bootstrap.js')),
+  - target: vendor/bootstrap
+    require: bootstrap/dist/js/bootstrap.min.js
+#    vfs.src(require.resolve('bootstrap/js/dist/tab.js'), opts).pipe(concat('js/vendor/tab.js')),
+  - target: vendor/tab
+    require: bootstrap/js/dist/tab.js
+#    vfs.src(require.resolve('bootstrap/js/dist/popover.js'), opts).pipe(concat('js/vendor/popover.js')),
+  - target: vendor/popover
+    require: bootstrap/js/dist/popover.js
+#    vfs.src(require.resolve('bootstrap/js/dist/tooltip.js'), opts).pipe(concat('js/vendor/tooltip.js')),
+  - target: vendor/tooltip
+    require: bootstrap/js/dist/tooltip.js
+#    vfs.src(require.resolve('bootstrap/js/dist/button.js'), opts).pipe(concat('js/vendor/button.js')),
+  - target: vendor/button
+    require: bootstrap/js/dist/button.js
+#    vfs.src(require.resolve('bootstrap/js/dist/dropdown.js'), opts).pipe(concat('js/vendor/dropdown.js')),
+  - target: vendor/dropdown
+    require: bootstrap/js/dist/dropdown.js
+#    vfs.src(require.resolve('tippy.js/dist/tippy.umd.min.js'), opts).pipe(concat('js/vendor/tippy.js')),
+  - target: vendor/tippy
+    require: tippy.js/dist/tippy.umd.min.js
+#    vfs.src(require.resolve('popper.js/dist/popper.min.js'), opts).pipe(concat('js/vendor/popper.js')),
+  - target: vendor/popper
+    require: popper.js/dist/popper.min.js
+    processor: none
+
+bundle-name: ui2
+preview: true

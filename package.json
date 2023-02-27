@@ -1,0 +1,46 @@
+{
+  "name": "thoughtspot-ui-bundle",
+  "description": "Antora UI bundle for Thoughtspot",
+  "homepage": "https://github.com/mark-plummer/antora-ui-2",
+  "license": "MPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mark-plummer/antora-ui-2.git"
+  },
+  "engines": {
+    "node": ">= 10.0.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "scripts": {
+    "clean-install": "rm -rf node_modules .cache package-lock.json;npm run plain-install",
+    "plain-install": "npm i --cache=.cache/npm --no-optional",
+    "build": "gulp"
+  },
+  "devDependencies": {
+    "@djencks/antora-ui-builder": "https://experimental-repo.s3-us-west-1.amazonaws.com/djencks-antora-ui-builder-v0.0.6.tgz",
+    "@djencks/tabset-block-ui": "https://experimental-repo.s3-us-west-1.amazonaws.com/djencks-tabset-block-ui-v0.0.3.tgz",
+    "@djencks/algolia-ui": "https://gitlab.com/djencks/algolia-ui.git",
+    "antora-ui-default": "git+https://gitlab.com/antora/antora-ui-default.git",
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "gulp": "~4.0",
+    "gulp-concat": "~2.6",
+    "gulp-connect": "~5.7",
+    "gulp-eslint": "~6.0",
+    "gulp-imagemin": "~6.2",
+    "gulp-postcss": "~9.0",
+    "gulp-stylelint": "~13.0",
+    "gulp-vinyl-zip": "~2.2",
+    "gulp-uglify": "~3.0",
+    "tippy.js": "^6.2.7",
+    "websocket-extensions": "^0.1.4"
+  },
+  "dependencies": {
+    "accordion-js": "^3.3.1",
+    "particles.js": "^2.0.0",
+    "stylelint": "^13.9.0"
+  }
+}

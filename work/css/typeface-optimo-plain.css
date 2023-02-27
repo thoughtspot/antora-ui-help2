@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Optimo-Plain";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("Optimo Thin"),
+    local("Optimo-Thin"),
+    url(../font/Plain-Thin.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Optimo-Plain";
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local("Optimo Medium"),
+    local("Optimo-Medium"),
+    url(../font/Plain-Medium.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Optimo-Plain";
+  font-style: italic;
+  font-weight: 400;
+  src:
+    local("Optimo Italic"),
+    local("Optimo-Italic"),
+    url(../font/Plain-RegularIta.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Optimo-Plain";
+  font-style: italic;
+  font-weight: 500;
+  src:
+    local("Optimo-Medium-Italic"),
+    local("Optimo-Medium-Italic"),
+    url(../font/Plain-MediumIta.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Optimo-Plain";
+  font-style: normal;
+  font-weight: 600;
+  src:
+    local("Optimo-Bold"),
+    local("Optimo-Bold"),
+    url(../font/Plain-Bold.woff) format("woff");
+}

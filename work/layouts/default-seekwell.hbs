@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+{{> head defaultPageTitle='Untitled'}}
+  </head>
+  <body class="article{{#with (or page.attributes.role page.role)}} {{{this}}}{{/with}}">
+{{> header-seekwell}}
+{{> body}}
+{{> footer}}
+<script>
+   /* Create a configuration object */
+   var ss360Config = {
+      /* Your Site ID that usually equals the domain you signed up with */
+      siteId: 'cloud-docs.thoughtspot.com_2',
+      /* A CSS selector that points to your search box */
+      searchBox: {selector: '#searchBox'},
+   };
+</script>
+<!--
+<script src="https://cdn.sitesearch360.com/v13/sitesearch360-v13.min.js" async></script> -->
+  </body>
+</html>

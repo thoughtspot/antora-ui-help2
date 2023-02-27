@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Icomoon";
+  src: url("../assets/fonts/font/icomoon.tff");
+}
+
+@font-face {
+  font-family: "Optimo-Plain";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("Optimo Thin"),
+    local("Optimo-Thin"),
+    url(../assets/fonts/Plain-Thin.otf) format("otf");
+}
+
+h1 {
+  font-size: 30px;
+  color: #000;
+  border-top: 3px solid #eaedf2;
+  margin-left: 30px;
+  padding-top: 15px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  font-family: "Optimo-Plain", sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+  color: #777e8b;
+  border-top: 3px solid #eaedf2;
+  margin-left: 30px;
+  padding-top: 15px;
+  font-weight: 100;
+  margin-bottom: 5px;
+  font-family: "Optimo-Plain", sans-serif;
+}
+
+.first {
+  border-top: none;
+}
+
+.announcement_body {/* one change to the HTML I did make was to wrap it all in a div with this style */
+  font-family: inherit;
+  color: #1d232f;
+  font-size: 16px;
+  padding: 10px;
+  /* font-family: "Optimo-Plain", sans-serif; */
+}
+
+img {
+  padding: 20px;
+  display: block;
+  margin-left: 0;
+  padding-left: 0;
+  margin-right: auto;
+  width: 80%;
+}
+
+img.inline {
+  display: inline;
+  width: 20px;
+  height: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+}
+
+p {
+  margin-left: 30px;
+  font-family: "Optimo-Plain", sans-serif;
+}
+
+.sub-list {/* I think I added this to deal with a couple of list items that were coded in an odd way */
+  margin-left: 50px;
+  list-style: disc outside none;
+  font-family: "Optimo-Plain", sans-serif;
+  display: list-item;
+}
+
+h3 {/* the list-style-image element is just a blue circle - we can get something from design for that but I think this URL will work even inside the iFrame */
+  font-size: 18px;
+  margin-left: 30px;
+  padding-top: 15px;
+  font-family: "Optimo-Plain", sans-serif;
+  font-weight: strong;
+  list-style: disc outside none;
+  display: list-item;
+  list-style-image: url("https://urldefense.com/v3/__https://pendo-static-5110210082111488.storage.googleapis.com/QXkBDPyYdfvjdGyKfr7bx5C5Ieg/guide-media-03f05dc0-6bcb-44ae-baad-c4f8feb2c00f__;!!MZ3Fw45to5uY!c92gXwXoYqkjREgSuONVzA2e1vysnTzsyTas7wgwTg2cjF97zjskEci51MZpwcdJBNthSxE$ ");
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}

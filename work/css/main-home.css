@@ -1,0 +1,6 @@
+main.home {
+  padding-right: var(--width-container-gutter);
+  padding-left: var(--width-container-gutter);
+  min-height: 100vh;
+  position: relative;
+}
